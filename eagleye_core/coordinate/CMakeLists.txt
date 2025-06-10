@@ -50,7 +50,7 @@ ament_export_include_directories(include)
 ament_target_dependencies(eagleye_coordinate)
 
 target_link_libraries(eagleye_coordinate
-  Geographic
+  GeographicLib
 )
 
 install(
